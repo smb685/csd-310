@@ -16,7 +16,8 @@ CREATE USER 'movies_user'@'localhost' IDENTIFIED WITH mysql_native_password BY '
 GRANT ALL PRIVILEGES ON movies.* TO 'movies_user'@'localhost';
 
 
--- drop tables if they are present
+-- drop tables if they are
+
 DROP TABLE IF EXISTS film;
 DROP TABLE IF EXISTS studio;
 DROP TABLE IF EXISTS genre;
